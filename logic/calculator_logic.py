@@ -1,6 +1,10 @@
 class CalculatorLogic:
     def __init__(self):
         pass
+    
+ #Addition Function (Bermudo)
+    def add(self, x, y):
+        return x + y
 
     def evaluate(self, expression):
         """
