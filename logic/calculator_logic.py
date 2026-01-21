@@ -5,6 +5,10 @@ class CalculatorLogic:
  #Addition Function (Bermudo)
     def add(self, x, y):
         return x + y
+    
+ # Subtraction Function (Espina)
+    def sub(self, x, y):
+        return x - y
 
     def evaluate(self, expression):
         """
