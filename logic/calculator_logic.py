@@ -10,7 +10,11 @@ class CalculatorLogic:
     def sub(self, x, y):
         return x - y
 
- # Division Function (Palongpalong)
+ # Multiplication Function (Romualdez)
+    def multiply(self, x, y):
+        return x * y
+    
+ # Division Function (Palongpalong)=
     def divide(self, x, y):
         if y == 0:
             return "Error: Div by 0"
