@@ -10,7 +10,12 @@ class CalculatorLogic:
     def sub(self, x, y):
         return x - y
 
+ # Multiplication Function (Palongpalong)
+    def multiply(self, x, y):
+        return x * y
+    
     def evaluate(self, expression):
+
         """
         Evaluates a mathematical expression string.
         Returns the result as a string or 'Error' if invalid.
